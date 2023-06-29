@@ -1,5 +1,5 @@
 variable "name" {
-  default = "arkan-spotify-analytics-datalake"
+  default = "{YOUR DATA LAKE'S NAME}"
 }
 
 variable "location" {
