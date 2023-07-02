@@ -1,0 +1,4 @@
+Flask==2.3.2
+google-cloud-storage==2.9.0
+spotipy==2.23.0
+gunicorn
