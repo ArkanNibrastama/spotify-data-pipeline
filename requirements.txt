@@ -1,0 +1,9 @@
+apache-airflow==2.6.2
+apache-beam==2.48.0
+Flask==2.2.5
+functions-framework==3.4.0
+google-cloud-storage==2.9.0
+gunicorn==20.1.0
+pytz==2023.3
+spotipy==2.23.0
+
