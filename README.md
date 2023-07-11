@@ -44,7 +44,8 @@ This repository contain my project about building spotify data pipeline on GCP w
     ```bash
     terraform apply
     ```
-
+## Full explanation
+To make better understand of this repository, you can check my linkedin post about this project [Build Spotify Data Pipeline on GCP with Terraform](https://www.linkedin.com/feed/update/urn:li:activity:7081463138679738368/).
 
 
 
