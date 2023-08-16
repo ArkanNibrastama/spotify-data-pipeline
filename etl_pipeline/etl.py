@@ -74,7 +74,7 @@ def pipeline():
             p
             |'Extract data from staging area' >> beam.io.ReadFromText("gs://arkan-spotify-analytics-stage-area/")
             |'Transform the data' >> beam.ParDo(transform())
-            # |beam.Map(print)
+            |beam.Map(print)
             |'Load into Data Warehouse' >> beam.io.Write(
                 beam.io.WriteToBigQuery(
                     project="{YOUR PROJECT ID}",
